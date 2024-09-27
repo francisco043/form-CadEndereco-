@@ -1,53 +1,111 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+# CADASTRO DE ENDEREÇO
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Cadastro de Endereço</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
 
-<body>
-    <div class="container">
-        <h3>CADASTRO DE ENDEREÇO</h3>
-        <div class="container">
-            <label for="cep">CEP</label> <br>
-            <input type="text" class="form-control" id="cep"><br>
 
-            <label for="rua">RUA</label>
-            <input type="text" class="form-control" id="rua"><br>
-            
-            <label for="complemento">COMPLEMENTO</label> <br>
-            <input type="text" class="form-control" id="complemento"><br>
-            
-            <label for="numero">NÚMERO</label> <br>
-            <input type="text" class="form-control" id="numero"><br>
+## 🚀 Começando
 
-            <label for="bairro">BAIRRO</label> <br>
-            <input type="text" class="form-control" id="bairro"><br>
-            
-            <label for="cidade">CIDADE</label> <br>
-            <input type="text" class="form-control" id="cidade"><br>
-             
-            <label for="estado">ESTADO</label> <br>
-            <input type="text" class="form-control" id="estado"><br>
-            <BR><br>
-                <button>salvar</button>
-        </div>
-    </div>
-    <script src="controller.js"></script>
-</body>
+ O projeto se consiste em cadastrar um formulario de endereço.
+ 
+ As informacoes necessarias sao:
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Cadastro de Endereço</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="html.css">
-</head>
-</html>
+>* ``cep: Campo para inserir o código postal logradouro ou rua``
+
+>* ``Complemento: Campo para informações adicionais (ex: apartamento, bloco).´`
+
+>* ``Número: Campo para o número do endereço.`´
+
+>* ``Bairro: Campo para o nome do bairro.``
+
+>* ``Localidade: Campo para o nome da cidade.``
+
+>* ``UF: Campo para estado.``
+
+
+
+Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+
+### 📋 Pré-requisitos
+
+De que coisas você precisa para instalar o software e como instalá-lo?
+
+```
+Dar exemplos
+```
+
+### 🔧 Instalação
+
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+
+Diga como essa etapa será:
+
+```
+Dar exemplos
+```
+
+E repita:
+
+```
+Até finalizar
+```
+
+Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+
+## ⚙️ Executando os testes
+
+Explicar como executar os testes automatizados para este sistema.
+
+### 🔩 Analise os testes de ponta a ponta
+
+Explique que eles verificam esses testes e porquê.
+
+```
+Dar exemplos
+```
+
+### ⌨️ E testes de estilo de codificação
+
+Explique que eles verificam esses testes e porquê.
+
+```
+Dar exemplos
+```
+
+## 📦 Implantação
+
+Adicione notas adicionais sobre como implantar isso em um sistema ativo
+
+## 🛠️ Construído com
+
+Mencione as ferramentas que você usou para criar seu projeto
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
+* [Maven](https://maven.apache.org/) - Gerente de Dependência
+* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+
+## 🖇️ Colaborando
+
+Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+
+## 📌 Versão
+
+Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+
+## 📄 Licença
+
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+
+## 🎁 Expressões de gratidão
+
+* Conte a outras pessoas sobre este projeto 📢;
+* Convide alguém da equipe para uma cerveja 🍺;
+* Um agradecimento publicamente 🫂;
+* etc.
