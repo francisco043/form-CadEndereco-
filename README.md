@@ -1,12 +1,10 @@
 # CADASTRO DE ENDEREÇO
 
-
-
 ## 🚀 Começando
 
  O projeto se consiste em cadastrar um formulario de endereço.
  
- As informacoes necessarias sao:
+ * As informacoes necessarias sao:
 
 >* ``cep: Campo para inserir o código postal logradouro ou rua``
 
@@ -21,91 +19,101 @@
 >* ``UF: Campo para estado.``
 
 
+### 📋 requisitos
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Um dos requisitos e colocar todas as informacoes necessarias.
 
-### 📋 Pré-requisitos
+### 📋 informaçoes
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+caso falte alguma informacao, ou conste algo de errado, sera notificado.
 
-```
-Dar exemplos
-```
+### 📋 notificacoes
 
-### 🔧 Instalação
+sera notificado caso o campo cep nao estejam completos
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+![](Captura%20de%20tela%202024-09-27%20091217.png)
 
-Diga como essa etapa será:
 
-```
-Dar exemplos
-```
+### 📋 auxilio
 
-E repita:
+com a insercao do cep, sera preenchido automaticamente, facilitando o cadastro do usuario.
 
-```
-Até finalizar
-```
+### funcionalidades do Java 🔧 
+
+
+1-Limpar Formulário:
+2-Validação de CEP:
+3-Preenchimento Automático: 
+4-Consumo de API: 
+5-Tratamento de Erros: O script alerta o usuário caso o CEP não seja encontrado ou seja inválido.
+
+### Dar exemplos 📋
+
+1 -  A função limparFormulario é responsável por limpar todos os campos do formulário.
+
+2 -  O script verifica se o CEP inserido é válido (8 dígitos numéricos).
+
+3 -  A função preencherFormulario preenche os campos do formulário com os dados retornados pela API
+
+4 -  A função pesquisarCep realiza uma chamada à API ViaCEP e processa os dados recebidos.
+
+5 -  O script alerta o usuário caso o CEP não seja encontrado ou seja inválido
+
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
 ## ⚙️ Executando os testes
 
-Explicar como executar os testes automatizados para este sistema.
+entre na tela de formulario, digite todos os campos e aperte em salvar.
 
-### 🔩 Analise os testes de ponta a ponta
+### 🔩 qual o motivo do cadastro
 
-Explique que eles verificam esses testes e porquê.
+Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entrega em questao de localizacao e facilitar a vida do usuario. 
 
-```
-Dar exemplos
-```
+## 📦 tecnologias
 
-### ⌨️ E testes de estilo de codificação
+- HTML5
+- java script
+- css
+- API 
 
-Explique que eles verificam esses testes e porquê.
 
-```
-Dar exemplos
-```
+## 🛠️ Conclusao
 
-## 📦 Implantação
+>* `` Este formulário de cadastro de endereço é simples porem cumpre com oque promete.
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+ Ele utiliza HTML e Bootstrap para proporcionar uma interface amigável e eficaz.
 
-## 🛠️ Construído com
+ Ele permite que os usuários coloquem os dados de endereço de forma clara e organizada.
+ 
+  O JavaScript associado (não mostrado aqui) pode adicionar funcionalidades interativas, como validação de campos e integração com APIs para preencher automaticamente os campos com informações de endereço a partir do CEP.
 
-Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+## 🖇️ partes do codigo
 
-## 🖇️ Colaborando
+~~~ JavaScript
 
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+// Função para limpar formulário
+const limparFormulario = () => {
+    document.getElementById('logradouro').value = '';
+    document.getElementById('cep').value = '';
+    document.getElementById('numero').value = '';
+    document.getElementById('bairro').value = '';
+    document.getElementById('uf').value = '';
+    document.getElementById('localidade').value = '';
+    document.getElementById('complemento').value = '';
+    
+}
+~~~
 
-## 📌 Versão
+## 📌 explicaçao
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+A função limparFormulario é um campo de um formulário estejam vazios, facilitando a interação do usuário com a aplicação. Essa abordagem melhora a experiência do usuário ao permitir que ele reinicie rapidamente a entrada de inforçoes.
+
+## 📌 foto do projeto
+
+![](Captura%20de%20tela%202024-09-27%20091019.png)
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+Francisco
