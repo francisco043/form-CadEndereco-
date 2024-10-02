@@ -121,6 +121,26 @@ const limparFormulario = () => {
 
 ![](Captura%20de%20tela%202024-09-27%20091019.png)
 
+##  DESCRIÇÃO DAS FUNÇÕES
 
+📌 fetch
+ 
+📌 json
+  
+📌 addres
+ 
+📌 hasOwnproperty 
+ 
+📌 addEventlistener
 
+# EXPLICAÇÕES
 
+* 🖇️ O fetch é uma API do JavaScript que permite realizar requisições HTTP de forma simples e intuitiva. É comumente usado para buscar dados de uma API. Ele retorna uma Promise, que resolve para a resposta da requisição
+ 
+* 🖇️ O método hasOwnProperty é utilizado em objetos JavaScript para verificar se uma propriedade específica pertence ao próprio objeto, e não à sua cadeia de protótipos.
+
+* 🖇️ O método addEventListener é usado para adicionar um ouvinte de eventos a um elemento do DOM. Ele permite que você escute e responda a eventos como cliques, teclas pressionadas, entre outros.
+
+## FONTES 
+
+-CHAT
