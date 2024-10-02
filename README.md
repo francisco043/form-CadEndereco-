@@ -1,14 +1,14 @@
 # CADASTRO DE ENDEREÇO
 
-## 🚀 Começando
+## 🚀 COMEÇANDO
 
  O projeto se consiste em cadastrar um formulario de endereço.
  
- * As informacoes necessarias sao:
+ * As informacões necessarias são:
 
 >* ``cep: Campo para inserir o código postal logradouro ou rua``
 
->* ``Complemento: Campo para informações adicionais (ex: apartamento, bloco).´`
+>* Complemento: Campo para informações adicionais (ex: apartamento, bloco).
 
 >* ``Número: Campo para o número do endereço.`´
 
@@ -19,35 +19,39 @@
 >* ``UF: Campo para estado.``
 
 
-### 📋 requisitos
+## 📋 REQUISITOS
 
-Um dos requisitos e colocar todas as informacoes necessarias.
+Um dos requisitos e colocar todas as informações necessarias.
 
-### 📋 informaçoes
+## 📋 INFORMAÇÕES
 
-caso falte alguma informacao, ou conste algo de errado, sera notificado.
+caso falte alguma informação, ou conste algo de errado, sera notificado.
 
-### 📋 notificacoes
+## 📋 NOTIFICAÇÕES
 
 sera notificado caso o campo cep nao estejam completos
 
 ![](Captura%20de%20tela%202024-09-27%20091217.png)
 
 
-### 📋 auxilio
+## 📋 AUXILÍO
 
-com a insercao do cep, sera preenchido automaticamente, facilitando o cadastro do usuario.
+com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro do usuario.
 
-### funcionalidades do Java 🔧 
-
+## FUNCIONALIDADE DO JAVA-SCRIPT 🔧 
 
 1-Limpar Formulário:
+
 2-Validação de CEP:
+
 3-Preenchimento Automático: 
+
 4-Consumo de API: 
+
 5-Tratamento de Erros: O script alerta o usuário caso o CEP não seja encontrado ou seja inválido.
 
-### Dar exemplos 📋
+# EXEMPLOS 📋
+
 
 1 -  A função limparFormulario é responsável por limpar todos os campos do formulário.
 
@@ -62,34 +66,37 @@ com a insercao do cep, sera preenchido automaticamente, facilitando o cadastro d
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
-## ⚙️ Executando os testes
+# ⚙️ EXECUTANDO OS TESTES
 
 entre na tela de formulario, digite todos os campos e aperte em salvar.
 
-### 🔩 qual o motivo do cadastro
+## 🔩 QUAIS MOTIVOS DO CADASTRO?
 
 Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entrega em questao de localizacao e facilitar a vida do usuario. 
 
-## 📦 tecnologias
+#  📦 TECNOLOGIAS
 
 - HTML5
-- java script
-- css
+- JAVA-SCRIPT
+- CSS
 - API 
+- BOOTSTRAP
+- HTML
+- GIT HUB
 
 
-## 🛠️ Conclusao
+# 🛠️ CONCLUSÃO
 
 >* `` Este formulário de cadastro de endereço é simples porem cumpre com oque promete.
 
- Ele utiliza HTML e Bootstrap para proporcionar uma interface amigável e eficaz.
+ >* ``Ele utiliza HTML e Bootstrap para proporcionar uma interface amigável e eficaz.
 
- Ele permite que os usuários coloquem os dados de endereço de forma clara e organizada.
+ >* ``Ele permite que os usuários coloquem os dados de endereço de forma clara e organizada.
  
-  O JavaScript associado (não mostrado aqui) pode adicionar funcionalidades interativas, como validação de campos e integração com APIs para preencher automaticamente os campos com informações de endereço a partir do CEP.
+  >* ``O JavaScript associado (não mostrado aqui) pode adicionar funcionalidades interativas, como validação de campos e integração com APIs para preencher automaticamente os campos com informações de endereço a partir do CEP.
 
 
-## 🖇️ partes do codigo
+# 🖇️ PARTES DO CODIGO
 
 ~~~ JavaScript
 
@@ -106,14 +113,14 @@ const limparFormulario = () => {
 }
 ~~~
 
-## 📌 explicaçao
+## 📌 EXPLICAÇÃO
 
-A função limparFormulario é um campo de um formulário estejam vazios, facilitando a interação do usuário com a aplicação. Essa abordagem melhora a experiência do usuário ao permitir que ele reinicie rapidamente a entrada de inforçoes.
+>* ``A função limparFormulario é um campo que estao vazios, facilitando a interação do usuário com a aplicação. Essa abordagem melhora a experiência do usuário ao permitir que ele reinicie rapidamente a entrada de informaçoes.
 
-## 📌 foto do projeto
+## 📌 FOTO DO PROJETO
 
 ![](Captura%20de%20tela%202024-09-27%20091019.png)
 
-## ✒️ Autores
 
-Francisco
+
+
