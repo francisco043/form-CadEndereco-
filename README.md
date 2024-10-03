@@ -11,7 +11,7 @@
 
 >* ``Complemento: Campo para informações adicionais (ex: apartamento, bloco).``
 
->* ``Número: Campo para o número do endereço.`´
+>* ``Número: Campo para o número do endereço.``
 
 >* ``Bairro: Campo para o nome do bairro.``
 
