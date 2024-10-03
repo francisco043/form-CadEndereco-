@@ -88,15 +88,19 @@ const limparFormulario = () => {
 
 ##  Funções utilizadas
 
-📌 fetch-
+📌 Fetch
  
-📌 json-
+📌 Json
   
-📌 addres
+📌 Addres
  
-📌 hasOwnproperty-
+📌 HasOwnproperty
  
-📌 addEventlistener-
+📌 AddEventlistener
+
+📌 Await
+
+📌 async
 
 # Explicação 📋
 
@@ -108,7 +112,11 @@ const limparFormulario = () => {
 
 * 🖇️O metodo JSon e um formato leve de troca de dados que é fácil para humanos lerem e escreverem, além de ser fácil para máquinas parsearem e gerarem.
 
-* 🖇️ O metodo Address fornece informações de contato para seu ancestral <article> ou <body>.
+* 🖇️ O metodo Address fornece informações de contato para seu ancestral.
+
+* 🖇️ O metodo await é uma parte da programação em JavaScript, especialmente para lidar com operações que podem levar tempo, como requisições a APIs ou leitura de arquivos.
+
+* 🖇️ Async é usada em JavaScript para declarar funções assíncronas, que permitem trabalhar com operações que podem demorar, como chamadas a APIs ou manipulação de arquivos, de maneira mais clara e organizada
 
 # ⚙️ Executando os códigos
 
