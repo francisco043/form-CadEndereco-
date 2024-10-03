@@ -1,14 +1,14 @@
-# CADASTRO DE ENDEREÇO
+# Cadastro de Endereço
 
-## 🚀 COMEÇANDO
+## 🚀 Começando
 
  O projeto se consiste em cadastrar um formulario de endereço.
  
- * As informacões necessarias são:
+ * ``As informacões necessarias são:`´
 
 >* ``cep: Campo para inserir o código postal logradouro ou rua``
 
->* Complemento: Campo para informações adicionais (ex: apartamento, bloco).
+>* ``Complemento: Campo para informações adicionais (ex: apartamento, bloco).``
 
 >* ``Número: Campo para o número do endereço.`´
 
@@ -19,26 +19,26 @@
 >* ``UF: Campo para estado.``
 
 
-## 📋 REQUISITOS
+## 📋 Requisitos
 
 Um dos requisitos e colocar todas as informações necessarias.
 
-## 📋 INFORMAÇÕES
+## 📋 Informações
 
 caso falte alguma informação, ou conste algo de errado, sera notificado.
 
-## 📋 NOTIFICAÇÕES
+## 📋 Notificações
 
 sera notificado caso o campo cep nao estejam completos
 
 ![](Captura%20de%20tela%202024-09-27%20091217.png)
 
 
-## 📋 AUXILÍO
+## 📋 Auxilío
 
 com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro do usuario.
 
-## FUNCIONALIDADE DO JAVA-SCRIPT 🔧 
+## Funcionalidades do Java-Script 🔧 
 
 1-Limpar Formulário:
 
@@ -50,7 +50,7 @@ com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro
 
 5-Tratamento de Erros: O script alerta o usuário caso o CEP não seja encontrado ou seja inválido.
 
-# EXEMPLOS 📋
+# Exemplos 📋
 
 
 1 -  A função limparFormulario é responsável por limpar todos os campos do formulário.
@@ -66,11 +66,11 @@ com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro
 
 Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
-# ⚙️ EXECUTANDO OS TESTES
+# ⚙️ Executando os codigos
 
 entre na tela de formulario, digite todos os campos e aperte em salvar.
 
-## 🔩 QUAIS MOTIVOS DO CADASTRO?
+## 🔩 Quais motivos do cadastro?
 
 Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entrega em questao de localizacao e facilitar a vida do usuario. 
 
