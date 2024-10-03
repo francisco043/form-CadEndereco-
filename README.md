@@ -104,17 +104,31 @@ const limparFormulario = () => {
 
 # Explicação 📋
 
+📌 Fetch
+
 * 🖇️ O Fetch é uma API do JavaScript que permite realizar requisições HTTP de forma simples e intuitiva. É comumente usado para buscar dados de uma API. Ele retorna uma Promise, que resolve para a resposta da requisição
+
+ 📌 HasOwnproperty
  
 * 🖇️ O método HasOwnProperty é utilizado em objetos JavaScript para verificar se uma propriedade específica pertence ao próprio objeto, e não à sua cadeia de protótipos.
 
+📌 AddEventlistener
+
 * 🖇️O método AddEventListener é usado para adicionar um ouvinte de eventos a um elemento do DOM. Ele permite que você escute e responda a eventos como cliques, teclas pressionadas, entre outros.
+
+📌 Json
 
 * 🖇️O metodo JSon e um formato leve de troca de dados que é fácil para humanos lerem e escreverem, além de ser fácil para máquinas parsearem e gerarem.
 
+📌 Addres
+
 * 🖇️ O metodo Address fornece informações de contato para seu ancestral.
 
+📌 Await
+
 * 🖇️ O metodo await é uma parte da programação em JavaScript, especialmente para lidar com operações que podem levar tempo, como requisições a APIs ou leitura de arquivos.
+
+📌 async
 
 * 🖇️ Async é usada em JavaScript para declarar funções assíncronas, que permitem trabalhar com operações que podem demorar, como chamadas a APIs ou manipulação de arquivos, de maneira mais clara e organizada
 
