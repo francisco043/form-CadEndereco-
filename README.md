@@ -1,4 +1,4 @@
-# Cadastro de Endereço
+* # Cadastro de Endereço
 
 
 ## 🚀 Começando
@@ -42,28 +42,28 @@ com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro
 ## Funcionalidades do Java-Script 🔧
 
 
-1- Limpar Formulário:
+* 1- Limpar Formulário:
 
-2- Validação de CEP:
+* 2- Validação de CEP:
 
-3- Preenchimento Automático: 
+* 3- Preenchimento Automático: 
 
-4- Consumo de API: 
+* 4- Consumo de API: 
 
-5- Tratamento de Erros: O script alerta o usuário caso o CEP não seja encontrado ou seja inválido.
+* 5- Tratamento de Erros: O script alerta o usuário caso o CEP não seja encontrado ou seja inválido.
 
 # Exemplos 📋
 
 
-1 -  A função limparFormulario é responsável por limpar todos os campos do formulário.
+* 1 -  A função limparFormulario é responsável por limpar todos os campos do formulário.
 
-2 -  O script verifica se o CEP inserido é válido (8 dígitos numéricos).
+* 2 -  O script verifica se o CEP inserido é válido (8 dígitos numéricos).
 
-3 -  A função preencherFormulario preenche os campos do formulário com os dados retornados pela API
+* 3 -  A função preencherFormulario preenche os campos do formulário com os dados retornados pela API
 
-4 -  A função pesquisarCep realiza uma chamada à API ViaCEP e processa os dados recebidos.
+* 4 -  A função pesquisarCep realiza uma chamada à API ViaCEP e processa os dados recebidos.
 
-5 -  O script alerta o usuário caso o CEP não seja encontrado ou seja inválido
+* 5 -  O script alerta o usuário caso o CEP não seja encontrado ou seja inválido
 
 # 🖇️ Partes do Código
 
@@ -86,25 +86,29 @@ const limparFormulario = () => {
 
 >* ``A função limparFormulario é um campo que esta vazio, facilitando a interação do usuário com a aplicação. Essa abordagem melhora a experiência do usuário ao permitir que ele reinicie rapidamente a entrada de informaçoes.
 
-##  Descrição das funções utilizadas
+##  Funções utilizadas
 
-📌 fetch
+📌 fetch-
  
-📌 json
+📌 json-
   
 📌 addres
  
-📌 hasOwnproperty 
+📌 hasOwnproperty-
  
-📌 addEventlistener
+📌 addEventlistener-
 
 # Explicação 📋
 
-* 🖇️ O fetch é uma API do JavaScript que permite realizar requisições HTTP de forma simples e intuitiva. É comumente usado para buscar dados de uma API. Ele retorna uma Promise, que resolve para a resposta da requisição
+* 🖇️ O Fetch é uma API do JavaScript que permite realizar requisições HTTP de forma simples e intuitiva. É comumente usado para buscar dados de uma API. Ele retorna uma Promise, que resolve para a resposta da requisição
  
-* 🖇️ O método hasOwnProperty é utilizado em objetos JavaScript para verificar se uma propriedade específica pertence ao próprio objeto, e não à sua cadeia de protótipos.
+* 🖇️ O método HasOwnProperty é utilizado em objetos JavaScript para verificar se uma propriedade específica pertence ao próprio objeto, e não à sua cadeia de protótipos.
 
-* 🖇️ O método addEventListener é usado para adicionar um ouvinte de eventos a um elemento do DOM. Ele permite que você escute e responda a eventos como cliques, teclas pressionadas, entre outros.
+* 🖇️O método AddEventListener é usado para adicionar um ouvinte de eventos a um elemento do DOM. Ele permite que você escute e responda a eventos como cliques, teclas pressionadas, entre outros.
+
+* 🖇️O metodo JSon e um formato leve de troca de dados que é fácil para humanos lerem e escreverem, além de ser fácil para máquinas parsearem e gerarem.
+
+* 🖇️ O metodo Address fornece informações de contato para seu ancestral <article> ou <body>.
 
 # ⚙️ Executando os códigos
 
@@ -128,7 +132,6 @@ Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entreg
 
  >* ``Ele permite que os usuários coloquem os dados de endereço de forma clara e organizada.
  
-  >* ``O JavaScript associado (não mostrado aqui) pode adicionar funcionalidades interativas, como validação de campos e integração com APIs para preencher automaticamente os campos com informações de endereço a partir do CEP.
 
 #  📦 Tecnologias
 
