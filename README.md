@@ -5,7 +5,7 @@
 
  O projeto se consiste em cadastrar um formulario de endereço.
  
- * ``As informacões necessarias são:`´
+ * ``As informações necessarias são:``
 
 >* ``cep: Campo para inserir o código postal logradouro ou rua``
 
@@ -37,19 +37,20 @@ sera notificado caso o campo cep nao estejam completos
 
 ## 📋 Auxilío
 
-com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro do usuario.
+com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro do usuario, ou feito manualmente.
 
-## Funcionalidades do Java-Script 🔧 
+## Funcionalidades do Java-Script 🔧
 
-1-Limpar Formulário:
 
-2-Validação de CEP:
+1- Limpar Formulário:
 
-3-Preenchimento Automático: 
+2- Validação de CEP:
 
-4-Consumo de API: 
+3- Preenchimento Automático: 
 
-5-Tratamento de Erros: O script alerta o usuário caso o CEP não seja encontrado ou seja inválido.
+4- Consumo de API: 
+
+5- Tratamento de Erros: O script alerta o usuário caso o CEP não seja encontrado ou seja inválido.
 
 # Exemplos 📋
 
@@ -63,39 +64,6 @@ com a inserção do cep, sera preenchido automaticamente, facilitando o cadastro
 4 -  A função pesquisarCep realiza uma chamada à API ViaCEP e processa os dados recebidos.
 
 5 -  O script alerta o usuário caso o CEP não seja encontrado ou seja inválido
-
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-# ⚙️ Executando os codigos
-
-entre na tela de formulario, digite todos os campos e aperte em salvar.
-
-## 🔩 Quais motivos do cadastro?
-
-Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entrega em questao de localizacao e facilitar a vida do usuario. 
-
-#  📦 Tecnologias
-
-- HTML5
-- JAVA-SCRIPT
-- CSS
-- API - https://viacep.com.br/
-- BOOTSTRAP
-- HTML
-- GIT HUB
-
-
-# 🛠️ Conclusão
-
->* `` Este formulário de cadastro de endereço é simples porem cumpre com oque promete.
-
- >* ``Ele utiliza HTML e Bootstrap para proporcionar uma interface amigável e eficaz.
-
- >* ``Ele permite que os usuários coloquem os dados de endereço de forma clara e organizada.
- 
-  >* ``O JavaScript associado (não mostrado aqui) pode adicionar funcionalidades interativas, como validação de campos e integração com APIs para preencher automaticamente os campos com informações de endereço a partir do CEP.
-
 
 # 🖇️ Partes do Código
 
@@ -114,15 +82,11 @@ const limparFormulario = () => {
 }
 ~~~
 
-## 📌 Explicação
+## 📌 Explicação do Código
 
->* ``A função limparFormulario é um campo que estao vazios, facilitando a interação do usuário com a aplicação. Essa abordagem melhora a experiência do usuário ao permitir que ele reinicie rapidamente a entrada de informaçoes.
+>* ``A função limparFormulario é um campo que esta vazio, facilitando a interação do usuário com a aplicação. Essa abordagem melhora a experiência do usuário ao permitir que ele reinicie rapidamente a entrada de informaçoes.
 
-## 📌 Foto da interface:
-
-![](Captura%20de%20tela%202024-09-27%20091019.png)
-
-##  Descrição das funções
+##  Descrição das funções utilizadas
 
 📌 fetch
  
@@ -134,13 +98,52 @@ const limparFormulario = () => {
  
 📌 addEventlistener
 
-# Explicação
+# Explicação 📋
 
 * 🖇️ O fetch é uma API do JavaScript que permite realizar requisições HTTP de forma simples e intuitiva. É comumente usado para buscar dados de uma API. Ele retorna uma Promise, que resolve para a resposta da requisição
  
 * 🖇️ O método hasOwnProperty é utilizado em objetos JavaScript para verificar se uma propriedade específica pertence ao próprio objeto, e não à sua cadeia de protótipos.
 
 * 🖇️ O método addEventListener é usado para adicionar um ouvinte de eventos a um elemento do DOM. Ele permite que você escute e responda a eventos como cliques, teclas pressionadas, entre outros.
+
+# ⚙️ Executando os códigos
+
+Entre na tela de formulario, digite todos os campos e aperte em salvar.
+
+## 📌 Foto da interface:
+
+![](Captura%20de%20tela%202024-09-27%20091019.png)
+
+
+
+## 🔩 Quais motivos do cadastro?
+
+Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entrega em questao de localizacao e facilitar a vida do usuario. 
+
+# 🛠️ Conclusão
+
+>* `` Este formulário de cadastro de endereço é simples porem cumpre com oque promete.
+
+ >* ``Ele utiliza HTML e Bootstrap para proporcionar uma interface amigável e eficaz.
+
+ >* ``Ele permite que os usuários coloquem os dados de endereço de forma clara e organizada.
+ 
+  >* ``O JavaScript associado (não mostrado aqui) pode adicionar funcionalidades interativas, como validação de campos e integração com APIs para preencher automaticamente os campos com informações de endereço a partir do CEP.
+
+#  📦 Tecnologias
+
+- HTML5
+- JAVA-SCRIPT
+- CSS
+- API - https://viacep.com.br/
+- BOOTSTRAP
+- HTML
+- GIT HUB
+
+
+
+
+
 
 ## Fontes
 
