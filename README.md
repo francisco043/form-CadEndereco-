@@ -74,7 +74,7 @@ entre na tela de formulario, digite todos os campos e aperte em salvar.
 
 Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entrega em questao de localizacao e facilitar a vida do usuario. 
 
-#  📦 TECNOLOGIAS
+#  📦 Tecnologias
 
 - HTML5
 - JAVA-SCRIPT
@@ -85,7 +85,7 @@ Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entreg
 - GIT HUB
 
 
-# 🛠️ CONCLUSÃO
+# 🛠️ Conclusão
 
 >* `` Este formulário de cadastro de endereço é simples porem cumpre com oque promete.
 
@@ -96,7 +96,7 @@ Encontrar o endereço, ter uma agilidade maior para as empresas que fazem entreg
   >* ``O JavaScript associado (não mostrado aqui) pode adicionar funcionalidades interativas, como validação de campos e integração com APIs para preencher automaticamente os campos com informações de endereço a partir do CEP.
 
 
-# 🖇️ PARTES DO CODIGO
+# 🖇️ Partes do Código
 
 ~~~ JavaScript
 
@@ -113,15 +113,15 @@ const limparFormulario = () => {
 }
 ~~~
 
-## 📌 EXPLICAÇÃO
+## 📌 Explicação
 
 >* ``A função limparFormulario é um campo que estao vazios, facilitando a interação do usuário com a aplicação. Essa abordagem melhora a experiência do usuário ao permitir que ele reinicie rapidamente a entrada de informaçoes.
 
-## 📌 FOTO DO PROJETO
+## 📌 Foto da interface:
 
 ![](Captura%20de%20tela%202024-09-27%20091019.png)
 
-##  DESCRIÇÃO DAS FUNÇÕES
+##  Descrição das funções
 
 📌 fetch
  
@@ -133,7 +133,7 @@ const limparFormulario = () => {
  
 📌 addEventlistener
 
-# EXPLICAÇÕES
+# Explicação
 
 * 🖇️ O fetch é uma API do JavaScript que permite realizar requisições HTTP de forma simples e intuitiva. É comumente usado para buscar dados de uma API. Ele retorna uma Promise, que resolve para a resposta da requisição
  
@@ -141,6 +141,12 @@ const limparFormulario = () => {
 
 * 🖇️ O método addEventListener é usado para adicionar um ouvinte de eventos a um elemento do DOM. Ele permite que você escute e responda a eventos como cliques, teclas pressionadas, entre outros.
 
-## FONTES 
+## Fontes
 
--CHAT
+- CHAT
+- GLOGLE 
+- MDN WEB DOCS_
+
+# Autor
+
+- [Fransisco Maimone](https://github.com/francisco043)
